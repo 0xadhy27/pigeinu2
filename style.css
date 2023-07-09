@@ -659,6 +659,12 @@ header {
 		text-align: center;
 	}
 
+	#dexscreener-embed {
+		position: relative;
+    	width: 100%;
+    	padding-bottom: 100%;
+	}
+
 	header {
 		position: fixed;
 		background-color: #324d00;
