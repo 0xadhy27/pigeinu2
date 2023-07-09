@@ -121,7 +121,7 @@ body, html {
 	color: #fff;
 	font-size: 20px;
 	font-family: Poppins;
-	text-shadow: 0 0 1px #000;
+	text-shadow: 0 0 1px #ffffff;
 	animation-name: show;
 	animation: .5s linear infinite;
 	opacity: 0;
