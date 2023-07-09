@@ -839,7 +839,7 @@ header {
 			font-size: 65px;
 			font-family: 'Dela Gothic One', cursive;
 			margin: 0;
-			color: #1a2e01;
+			color: #e7588a;
 		}
 
 		.about p {
@@ -964,7 +964,7 @@ header {
 			font-family: 'Dela Gothic One', cursive;
 			margin: 0;
 			text-align: center;
-			color: #1a2e01;
+			color: #fff;
 			margin-top: 50px;
 		}
 
@@ -981,7 +981,7 @@ header {
 			height: 400px;
 			width: 90%;
 			border-radius: 10px;
-			background-color: #1a2e01;
+			background-color: mediumpurple;
 			display: flex;
 			flex-flow: column;
 			margin-top: 50px;
