@@ -453,7 +453,7 @@ header {
 
 	.home h1 {
 		font-family: Lobster, cursive;
-		font-size: 1100%;
+		font-size: 500%;
 		margin: 0;
 		text-align: right;
 	}
@@ -759,7 +759,7 @@ header {
 			position: relative;
 			width: 100%;
 			height: 100vh;
-			background: #161413;
+			background: #e7588a;
 			background-size: auto 100%;
 			background-position: 100% 0;
 			background-repeat: no-repeat;
@@ -786,7 +786,7 @@ header {
 
 		.home h1 {
 			font-family: 'Dela Gothic One', cursive;
-			font-size: 1100%;
+			font-size: 500%;
 			margin: 0;
 			text-align: right;
 		}
