@@ -429,7 +429,7 @@ header {
 		position: relative;
 		width: 100%;
 		height: 100vh;
-		background: #161413;
+		background: #e7588a;
 		background-size: auto 100%;
 		background-position: 100% 0;
 		background-repeat: no-repeat;
@@ -453,7 +453,7 @@ header {
 
 	.home h1 {
 		font-family: Lobster, cursive;
-		font-size: 500%;
+		font-size: 1100%;
 		margin: 0;
 		text-align: right;
 	}
@@ -493,6 +493,7 @@ header {
 	.about {
 		position: relative;
 		width: 100%;
+		border-top: 30px solid #e7588a;
 		background-color: #e7588a;
 	}
 
@@ -505,14 +506,14 @@ header {
 		font-size: 65px;
 		font-family: 'Dela Gothic One', cursive;
 		margin: 0;
-		color: #e7588a;
+		color: #1a2e01;
 	}
 
 	.about p {
 		padding: 0 10px 50px 50px;
 		margin: 0;
 		font-size: 20px;
-		color: #ffffff;
+		color: #e7588a;
 		font-family: 'Dela Gothic One', cursive;
 	}
 
@@ -624,7 +625,7 @@ header {
 		font-family: 'Dela Gothic One', cursive;
 		margin: 0;
 		text-align: center;
-		color: White;
+		color: #e7588a;
 	}
 
 	.roadmap .container {
@@ -640,7 +641,7 @@ header {
 		height: 400px;
 		width: 370px;
 		border-radius: 10px;
-		background-color: mediumpurple;
+		background-color: #1a2e01;
 		display: flex;
 		flex-flow: column;
 	}
@@ -666,7 +667,7 @@ header {
 
 	header {
 		position: fixed;
-		background-color: #ffffff;
+		background-color: #324d00;
 		top: 0;
 		left: 0;
 		z-index: 2;
@@ -681,7 +682,7 @@ header {
 		width: 60px;
 		height: 60px;
 		border: solid 10px rgba(255,255,255,.445);
-		border-top: solid 10px #e7588a;
+		border-top: solid 10px green;
 		border-radius: 50%;
 		animation: loading .5s infinite linear;
 	}
@@ -730,8 +731,6 @@ header {
 		width: 100%;
 		position: absolute;
 		object-fit: cover;
-		opacity: .5;
-		filter: hue-rotate(-50deg) brightness(.7) blur(3px);
 		height: 100%;
 	}
 
@@ -748,7 +747,7 @@ header {
 			background-color: #e7588a;
 			color: #fff;
 			overflow: hidden;
-			width: 100%;
+			width: 170%;
 		}
 
 		body, html {
@@ -759,7 +758,7 @@ header {
 			position: relative;
 			width: 100%;
 			height: 100vh;
-			background: #e7588a;
+			background: #161413;
 			background-size: auto 100%;
 			background-position: 100% 0;
 			background-repeat: no-repeat;
@@ -767,8 +766,8 @@ header {
 
 		.home .right-img {
 			position: absolute;
-			bottom: 0;
-			left: 0;
+			bottom: 60%;
+			left: 37%;
 			height: 400px;
 		}
 
@@ -779,14 +778,13 @@ header {
 			transform: translate(-50%,-50%);
 			padding: 30px 20px;
 			border-radius: 10px;
-			zoom: 1.4;
 			width: max-content;
 			color: #fff;
 		}
 
 		.home h1 {
 			font-family: 'Dela Gothic One', cursive;
-			font-size: 500%;
+			font-size: 1100%;
 			margin: 0;
 			text-align: right;
 		}
@@ -826,7 +824,6 @@ header {
 		.about {
 			position: relative;
 			width: 100%;
-			border-top: 30px solid #fff;
 			background-color: #e7588a;
 		}
 
@@ -839,7 +836,7 @@ header {
 			font-size: 65px;
 			font-family: 'Dela Gothic One', cursive;
 			margin: 0;
-			color: #e7588a;
+			color: #fff;
 		}
 
 		.about p {
@@ -856,10 +853,8 @@ header {
 
 		.about img {
 			position: absolute;
-			top: calc(50%+15px);
-			left: 50%;
+			left: 80%;
 			translate: -50% -50%;
-			scale: -1 1;
 			filter: drop-shadow( 0 0 10px rgba(255,255,255,.5));
 			width: 500px;
 			opacity: .3;
@@ -994,6 +989,12 @@ header {
 			font-size: 40px;
 		}
 
+		.roadmap .card p {
+			text-align: start;
+			font-family: 'Dela Gothic One', cursive;
+			font-size: 25px;
+		}
+
 		.tokenomics {
 			background-color: #e7588a;
 			padding: 40px 0;
@@ -1017,6 +1018,7 @@ header {
 			width: 60px;
 			height: 60px;
 			border: solid 10px rgba(255,255,255,.445);
+			border-top: solid 10px green;
 			border-radius: 50%;
 			animation: loading .5s infinite linear;
 		}
@@ -1060,6 +1062,13 @@ header {
 			color: #000000;
 			margin-top: 10px;
 		}
+		.swap,.swap-container{
+			background-color: #4A8205;
+			border-bottom-color: #4A8205;
+		}
+		.swap-container{
+			width: 100%;
+			border-radius: 0;
 		}
 		@keyframes loading {
 			0% {
@@ -1071,7 +1080,7 @@ header {
 			}
 		}
 	}
-
+}
 
 .last{
     background-color: #e7588a;
