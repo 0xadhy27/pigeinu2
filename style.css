@@ -329,7 +329,7 @@ header {
 	height: 100%;
 }
 .bottom{
-	background-color: #203a00;
+	background-color: #e7588a;
 }
 .bottom img{
 	width: 20%;
@@ -493,7 +493,6 @@ header {
 	.about {
 		position: relative;
 		width: 100%;
-		border-top: 30px solid #1a2e01;
 		background-color: #e7588a;
 	}
 
@@ -506,14 +505,14 @@ header {
 		font-size: 65px;
 		font-family: 'Dela Gothic One', cursive;
 		margin: 0;
-		color: #1a2e01;
+		color: #e7588a;
 	}
 
 	.about p {
 		padding: 0 10px 50px 50px;
 		margin: 0;
 		font-size: 20px;
-		color: #1a2e01;
+		color: #ffffff;
 		font-family: 'Dela Gothic One', cursive;
 	}
 
@@ -625,7 +624,7 @@ header {
 		font-family: 'Dela Gothic One', cursive;
 		margin: 0;
 		text-align: center;
-		color: #1a2e01;
+		color: White;
 	}
 
 	.roadmap .container {
@@ -641,7 +640,7 @@ header {
 		height: 400px;
 		width: 370px;
 		border-radius: 10px;
-		background-color: #1a2e01;
+		background-color: mediumpurple;
 		display: flex;
 		flex-flow: column;
 	}
@@ -667,7 +666,7 @@ header {
 
 	header {
 		position: fixed;
-		background-color: #324d00;
+		background-color: #ffffff;
 		top: 0;
 		left: 0;
 		z-index: 2;
@@ -682,7 +681,7 @@ header {
 		width: 60px;
 		height: 60px;
 		border: solid 10px rgba(255,255,255,.445);
-		border-top: solid 10px green;
+		border-top: solid 10px #e7588a;
 		border-radius: 50%;
 		animation: loading .5s infinite linear;
 	}
@@ -746,7 +745,7 @@ header {
 					animation: none !important;
 		  }
 		body {
-			background-color: #488002;
+			background-color: #e7588a;
 			color: #fff;
 			overflow: hidden;
 			width: 100%;
@@ -828,7 +827,7 @@ header {
 			position: relative;
 			width: 100%;
 			border-top: 30px solid #fff;
-			background-color: #488002;
+			background-color: #e7588a;
 		}
 
 		.about .container {
@@ -956,7 +955,7 @@ header {
 		}
 
 		.roadmap {
-			background-color: #488002;
+			background-color: #e7588a;
 		}
 
 		.title {
@@ -996,14 +995,14 @@ header {
 		}
 
 		.tokenomics {
-			background-color: #488002;
+			background-color: #e7588a;
 			padding: 40px 0;
 			text-align: center;
 		}
 
 		header {
 			position: fixed;
-			background-color: #324d00;
+			background-color: #e7588a;
 			top: 0;
 			left: 0;
 			z-index: 2;
@@ -1018,7 +1017,6 @@ header {
 			width: 60px;
 			height: 60px;
 			border: solid 10px rgba(255,255,255,.445);
-			border-top: solid 10px green;
 			border-radius: 50%;
 			animation: loading .5s infinite linear;
 		}
@@ -1062,13 +1060,6 @@ header {
 			color: #000000;
 			margin-top: 10px;
 		}
-		.swap,.swap-container{
-			background-color: #4A8205;
-			border-bottom-color: #4A8205;
-		}
-		.swap-container{
-			width: 100%;
-			border-radius: 0;
 		}
 		@keyframes loading {
 			0% {
@@ -1080,7 +1071,7 @@ header {
 			}
 		}
 	}
-}
+
 
 .last{
     background-color: #e7588a;
